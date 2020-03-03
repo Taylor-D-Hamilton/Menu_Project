@@ -1,0 +1,21 @@
+body{
+    background-image: url("red29.jpg");
+}
+p{
+    text-align: left;
+    font-size: 24.0pt;
+    font-family: Papyrus;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    margin-left: 0in;
+    margin-right: 0in;
+    margin-top: 4.0pt;
+    margin-bottom: .0001pt;
+    padding: 0in;
+    color: #CCA551;
+}
+p#d{
+    color: black;
+    font-size: 15pt;
+}
