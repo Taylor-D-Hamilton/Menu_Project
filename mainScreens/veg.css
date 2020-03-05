@@ -1,17 +1,35 @@
 body{
     background-image: url("red29.jpg");
+    background-size: cover;
 }
 p{
+    border: 5px solid black;
     text-align: left;
     font-size: 24.0pt;
     font-family: Papyrus;
-    border-style: none;
-    border-color: inherit;
     border-width: medium;
     margin-left: 0in;
     margin-right: 0in;
     margin-top: 4.0pt;
     margin-bottom: .0001pt;
     padding: 0in;
-    color: #CCA551;
+    padding-left: 50px;
+    color: rgb(219, 54, 90);
+}
+img{
+    width: 75px;
+    height: 55px;
+    float: left;
+    margin: 0%;
+    padding-left:0px;
+}
+div.row{
+    width: 100%;
+}
+div.col-1-9{
+    width:11%;
+}
+nav{
+    color: darkgrey;
+    text-decoration: none;
 }
