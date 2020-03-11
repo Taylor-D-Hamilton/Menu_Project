@@ -1,8 +1,10 @@
-
 body{
    padding-top: 200px;
    background-image: url("red29.jpg");
    background-size: cover;
+   background-repeat: no-repeat;
+   overflow: scroll;
+   overflow-x: hidden;
 }
 p{
    border: 5px solid black;
@@ -31,7 +33,7 @@ div.row{
    width: 100%;
 }
 div.col-1-9{
-   width:11%;
+   width:20%;
 }
 
 nav a{
@@ -46,17 +48,19 @@ nav a:visited, nav a:link {
 
 nav a:active, nav a:hover {
    color: rgb(136, 7, 7);
-}nav#main ul li  a{
+}
+nav#main ul li  a{
    display: block;
    font-size: 1.1em;
    text-align: center;
    padding: auto;
    margin: auto;
    padding-top: 0px;
-   padding-left: 10px;
-   padding-right: 10px;
+   padding-left: 2px;
+   padding-right: 5px;
 }
 nav#main ul li a:hover, nav#main ul li a:active {
+   padding-top: 10px;
    text-shadow: 0px 0px 2px black, 0px 0px 15px white;
 }
 nav a{
@@ -64,20 +68,23 @@ nav a{
    text-align: center;
    box-sizing: content-box;
    text-shadow: white 10px 0px 50px;
+   width: 100%;
 }
 nav#main ul{
    display: -webkit-flex;
    display: flex;
    -webkit-flex-flow: row wrap;
    flex-flow: row wrap;
-   border: 2px solid black;
    vertical-align: middle;
+   border: 8px burlywood;
+   border-style: solid none none;
 }
 nav#main ul li{
    font-size: 1.5em;
    flex: 1 1 200px;
    -webkit-flex: 1 1 200px;
    list-style-type: none;
+   
 }
 div[class^="col-"] {
    float: left;
@@ -87,9 +94,10 @@ div.col-1-9 {
 }
 nav#main{
     margin-top: 0px;
-    padding-top: 0px;
+    padding-top: 0px; 
     
 }
+
 p{
    border-radius: 10px 10px;
    width: 30%;
@@ -106,4 +114,13 @@ p{
 p{
    flex: 1 1 200px;
    -webkit-flex: 1 1 200px;
+}
+nav#main ul li{
+   text-align: center;
+   margin: 0%;
+   width: 150px;
+   border: 2px black;
+   border-style: none solid solid;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
 }
