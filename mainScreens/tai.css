@@ -1,6 +1,4 @@
 body{
-   width: auto;
-   padding-top: 200px;
    background-image: url("red29.jpg");
    background-size: cover;
    background-repeat: no-repeat;
@@ -8,7 +6,6 @@ body{
    overflow-x: hidden;
 }
 p{
-   border: 5px solid black;
    text-align: left;
    font-size: 1.2em;
    font-family: Papyrus;
@@ -19,7 +16,6 @@ p{
    margin-bottom: .0001pt;
    padding: 0in;
    padding-left: 50px;
-   color: rgb(219, 54, 90);
 }
 img{
    width: 60px;
@@ -77,7 +73,7 @@ nav#main ul{
    -webkit-flex-flow: row wrap;
    flex-flow: row wrap;
    vertical-align: middle;
-   border: 8px burlywood;
+   border: 8px rgb(1, 3, 32);
    border-style: solid none none;
 }
 nav#main ul li{
@@ -91,7 +87,7 @@ div[class^="col-"] {
    float: left;
 }
 div.col-1-9 {
-   width: 11.111111111%;
+   width: 11%;
 }
 nav#main{
     margin-top: 0px;
@@ -102,15 +98,15 @@ nav#main{
 p{
    border-radius: 10px 10px;
    width: 30%;
-   border: 2px solid rgb(100, 28, 28);
-   color: rgb(94, 63, 23);
+   border: 2px solid rgb(59, 46, 1);
+   color: rgb(108, 10, 173);
    float: left;
    display: block;
    text-align: center;
+   padding: auto;
    margin: auto;
+   padding: 10px 10px;
    margin: 5px 5px;
-   padding-left: 10px;
-   padding-right: 17px;
 }
 p{
    flex: 1 1 200px;
